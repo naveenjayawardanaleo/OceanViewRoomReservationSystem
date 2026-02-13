@@ -58,7 +58,7 @@ public class LoginServlet extends HttpServlet {
         }
 
         if (username.length() != 10) {
-            System.out.println("Invalid username.");
+            System.out.println("Invalid username");
         }
     }
 }
