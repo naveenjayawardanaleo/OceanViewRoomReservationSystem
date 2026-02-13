@@ -1,0 +1,5 @@
+# Created at 2026-02-13T15:37:26.070
+Boot Manifest-JAR contains absolute paths in classpath 'D:\NetbeansProjects\OceanViewResortSystem\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
