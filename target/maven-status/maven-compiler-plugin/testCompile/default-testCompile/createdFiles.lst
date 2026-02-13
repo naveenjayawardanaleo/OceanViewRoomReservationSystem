@@ -1,4 +1,3 @@
-com\mycompany\oceanviewresort\LoginServletTest.class
-com\mycompany\oceanviewresort\RoomsDAOTest.class
-com\mycompany\oceanviewresort\controller\CreateReservationServletTest.class
-com\mycompany\oceanviewresort\DBTestTest.class
+com\mycompany\oceanviewresort\BillServiceTest.class
+com\mycompany\oceanviewresort\ReservationDAOTest.class
+com\mycompany\oceanviewresort\SmokeTest.class
