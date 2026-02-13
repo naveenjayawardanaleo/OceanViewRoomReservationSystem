@@ -16,12 +16,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import com.mycompany.oceanviewresort.util.DBConnection;
 
-
 /**
  *
  * @author Dell
  */
-@WebServlet(name = "LoginServlet", urlPatterns = {"/login"})
+@WebServlet(name = "LoginServlet", urlPatterns = { "/login" })
 public class LoginServlet extends HttpServlet {
 
     @Override
@@ -56,6 +55,10 @@ public class LoginServlet extends HttpServlet {
             response.sendRedirect("dashboard.jsp");
         } else {
             response.getWriter().println("Invalid login");
+        }
+
+        if (username.length() != 10) {
+            System.out.println("Invalid username.");
         }
     }
 }
