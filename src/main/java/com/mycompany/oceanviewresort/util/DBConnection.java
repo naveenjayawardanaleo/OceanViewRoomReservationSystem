@@ -30,11 +30,14 @@ public class DBConnection {
                         local = DriverManager.getConnection(URL, USER, PASSWORD);
                         connection = local;
                     }
+                    //success
                 }
             }
             return local;
         } catch (ClassNotFoundException | SQLException e) {
             throw new IllegalStateException("Failed to initialize database connection", e);
+            
+//            fail
         }
     }
 }
