@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="css/style.css" type="text/css" />
 
     </head>
-    <body>
+    <body style="background-color: whitesmoke;">
         <div class="login-form">
             <h2>Login</h2>
 
