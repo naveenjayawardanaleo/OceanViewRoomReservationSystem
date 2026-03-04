@@ -1,6 +1,6 @@
 Project description
 
-Features
+Features - Login, Room CRUD, Reservation Pending/Completed, Billing VAT+SC.
 
 How to run
 
