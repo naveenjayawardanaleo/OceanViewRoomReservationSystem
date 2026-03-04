@@ -7,6 +7,13 @@
 <%@page import="com.mycompany.oceanviewresort.model.Rooms"%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 
+<%
+    String user = (String) session.getAttribute("user");
+    if (user == null) {
+        response.sendRedirect("login.jsp");
+        return;
+    }
+%>
 
 <!DOCTYPE html>
 <html>

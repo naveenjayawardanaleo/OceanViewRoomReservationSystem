@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.oceanviewresort.controller;
 
 import com.mycompany.oceanviewresort.ReservationDAO;
@@ -14,11 +10,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-/**
- *
- * @author Assistant
- */
 @WebServlet(name = "BillPrintServlet", urlPatterns = {"/billPrint"})
 public class BillPrintServlet extends HttpServlet {
 
@@ -61,6 +52,6 @@ public class BillPrintServlet extends HttpServlet {
             }
         }
         // If not found or error, redirect to reservations
-        res.sendRedirect("viewReservations");
+        res.sendRedirect("viewReservation");
     }
 }

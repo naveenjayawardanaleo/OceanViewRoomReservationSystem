@@ -1,4 +1,11 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
+<%
+    String user = (String) session.getAttribute("user");
+    if (user != null) {
+        response.sendRedirect("dashboard.jsp");
+        return;
+    }
+%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,6 +16,15 @@
     <body style="background-color: whitesmoke;">
         <div class="login-form">
             <h2>Login</h2>
+
+            <%
+                String errorMessage = (String) request.getAttribute("errorMessage");
+                if (errorMessage != null) {
+            %>
+                <div >
+                    <strong>Error: </strong><%= errorMessage %>
+                </div>
+            <% } %>
 
             <form action="login" method="post">
                 Username: <input type="text" name="username" required><br><br>

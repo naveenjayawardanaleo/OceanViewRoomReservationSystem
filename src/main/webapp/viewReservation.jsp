@@ -7,6 +7,14 @@
 <%@page import="java.util.List"%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 
+<%
+    String user = (String) session.getAttribute("user");
+    if (user == null) {
+        response.sendRedirect("login.jsp");
+        return;
+    }
+%>
+
 <!DOCTYPE html>
 <html>
     <head>

@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.oceanviewresort;
 
 import com.mycompany.oceanviewresort.model.Reservation;
@@ -12,12 +8,6 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- *
- * @author Dell
- */
-
 
 public class ReservationDAO {
 
@@ -57,14 +47,11 @@ public class ReservationDAO {
 
         List<Reservation> list = new ArrayList<>();
         Connection con = DBConnection.getConnection();
-
         String sql = "SELECT * FROM reservation";
         Statement st = con.createStatement();
         ResultSet rs = st.executeQuery(sql);
-
         while (rs.next()) {
             Reservation r = new Reservation();
-
             r.setId(rs.getInt("id"));
             r.setName(rs.getString("name"));
             r.setAddress(rs.getString("address"));
@@ -74,13 +61,10 @@ public class ReservationDAO {
             r.setCheckIn(rs.getDate("checkIn"));
             r.setCheckOut(rs.getDate("checkOut"));
             r.setStatus(rs.getString("status"));
-
             list.add(r);
         }
-
         rs.close();
         st.close();
-
         return list;
     }
 

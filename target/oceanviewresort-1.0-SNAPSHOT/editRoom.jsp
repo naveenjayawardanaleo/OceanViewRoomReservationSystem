@@ -8,6 +8,11 @@
 
 <%@page import="com.mycompany.oceanviewresort.model.Rooms"%>
 <%
+    String user = (String) session.getAttribute("user");
+    if (user == null) {
+        response.sendRedirect("login.jsp");
+        return;
+    }
     Rooms c = (Rooms) request.getAttribute("room");
 %>
 
@@ -53,7 +58,7 @@
                 Hotwater <input type="checkbox" name="Hotwater" value="1" <%= c.getHotwater() == 1 ? "checked" : ""%>>
 
 
-                Price per Night: <input type="text" name="pricePerNight" value="<%= c.getPricePerNight()%>" required><br><br>
+                Price per Night: <input type="number" name="pricePerNight" value="<%= c.getPricePerNight()%>" required><br><br>
 
 
                 <br><br>
@@ -61,7 +66,7 @@
                 </form>
 
                 <br>
-                <a href="viewCustomers">Cancel</a>
+                <a href="viewRoom">Cancel</a>
 
                 </body>
                 </html>
