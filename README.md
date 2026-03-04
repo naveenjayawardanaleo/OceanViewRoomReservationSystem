@@ -8,4 +8,7 @@ Architecture - Add 3-tier + MVC summary.
 
 Screenshots section
 
+database tables - users/rooms/reservation
+
 Prerequisites: Java 8, MySQL, Tomcat, Maven
+
