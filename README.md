@@ -4,6 +4,8 @@ Features - Login, Room CRUD, Reservation Pending/Completed, Billing VAT+SC.
 
 How to run
 
+Architecture - Add 3-tier + MVC summary.
+
 Screenshots section
 
 Prerequisites: Java 8, MySQL, Tomcat, Maven
