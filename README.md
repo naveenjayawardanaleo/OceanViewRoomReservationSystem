@@ -12,3 +12,24 @@ database tables - users/rooms/reservation
 
 Prerequisites: Java 8, MySQL, Tomcat, Maven
 
+
+
+
+API endpoints:
+
+/login
+
+/viewRoom
+
+/addRoom
+
+/editRoom
+
+/deleteRoom
+
+/CreateReservation
+
+/viewReservations
+
+/billPrint
+
