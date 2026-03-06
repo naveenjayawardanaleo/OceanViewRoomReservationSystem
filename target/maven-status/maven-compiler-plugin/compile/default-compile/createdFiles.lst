@@ -8,6 +8,7 @@ com\mycompany\oceanviewresort\controller\deleteRoomServlet.class
 com\mycompany\oceanviewresort\DBTest.class
 com\mycompany\oceanviewresort\controller\addRoomServlet.class
 com\mycompany\oceanviewresort\controller\EditRoomServlet.class
+com\mycompany\oceanviewresort\LogoutServlet.class
 com\mycompany\oceanviewresort\ReservationDAO.class
 com\mycompany\oceanviewresort\controller\AddItemServlet.class
 com\mycompany\oceanviewresort\model\Rooms.class
