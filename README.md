@@ -156,10 +156,6 @@ Used to separate business logic from direct database operations, making the syst
 
 ### 2. Dashboard
 
-<div align="center">
-  <img src="docs/screenshots/dashboard.png" alt="Dashboard" width="85%" />
-  <p><em>Main dashboard that provides quick access to the core modules.</em></p>
-</div>
 
 <div align="center">
   <img src="docs/screenshots/Picture1.png" alt="Dashboard alternative view" width="85%" />
