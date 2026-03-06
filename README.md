@@ -137,7 +137,7 @@ Used to separate business logic from direct database operations, making the syst
 ## <img src="docs/screenshots/logo.png" alt="logo" width="22" /> Application Preview
 
 <div align="center">
-  <img src="docs/screenshots/Picture13.png" alt="OceanView home page" width="90%" />
+  <img src="docs/screenshots/welcome.png" alt="OceanView home page" width="90%" />
   <p><em>Landing page of the OceanView Resort Management System</em></p>
 </div>
 
@@ -175,10 +175,7 @@ Used to separate business logic from direct database operations, making the syst
   <p><em>Room list with key information such as room type, capacity, price, and amenities.</em></p>
 </div>
 
-<div align="center">
-  <img src="docs/screenshots/Picture5.png" alt="Room list second view" width="85%" />
-  <p><em>Another view of the room management table used for administration tasks.</em></p>
-</div>
+
 
 <div align="center">
   <img src="docs/screenshots/Picture4.png" alt="Create room page" width="85%" />
@@ -195,17 +192,14 @@ Used to separate business logic from direct database operations, making the syst
   <p><em>Room editing screen used to update existing room information.</em></p>
 </div>
 
-<div align="center">
-  <img src="docs/screenshots/Picture9.png" alt="Delete room confirmation view" width="85%" />
-  <p><em>Room deletion workflow from the management interface.</em></p>
-</div>
+
 
 ---
 
 ### 4. Reservation Management
 
 <div align="center">
-  <img src="docs/screenshots/Picture10.png" alt="Reservation list" width="85%" />
+  <img src="docs/screenshots/reservations.png" alt="Reservation list" width="85%" />
   <p><em>Reservation management screen showing ongoing bookings and guest information.</em></p>
 </div>
 
@@ -228,7 +222,7 @@ Used to separate business logic from direct database operations, making the syst
 ### 6. Database Evidence
 
 <div align="center">
-  <img src="docs/screenshots/Picture6.png" alt="Database tables" width="85%" />
+  <img src="docs/screenshots/structure.png" alt="Database tables" width="85%" />
   <p><em>Database table structure used to store core system data.</em></p>
 </div>
 
@@ -244,7 +238,7 @@ Used to separate business logic from direct database operations, making the syst
 
 <div align="center">
   <img src="docs/screenshots/Picture16.png" alt="Query or database access evidence" width="85%" />
-  <p><em>Additional database or query-level evidence from development and testing.</em></p>
+  <p><em>Staff login credientials and username</em></p>
 </div>
 
 ---
@@ -284,7 +278,7 @@ Used to separate business logic from direct database operations, making the syst
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/naveenjayawardanaleo/OceanViewRoomReservationSystem
 cd your-repository-name
 ```
 
