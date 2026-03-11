@@ -376,11 +376,3 @@ This system was tested through interface-level execution and database verificati
 
 ---
 
-## <img src="docs/screenshots/logo.png" alt="logo" width="22" /> Final Note
-
-This repository presents not only the source code of the system, but also the design, user interface, database evidence, and implementation quality of the project. The README is structured to make the project easy to understand for lecturers, assessors, and recruiters reviewing the work.
-
-<div align="center">
-  <br/>
-  <strong>If you are submitting this for coursework, make sure your screenshot paths and repository link match your actual project.</strong>
-</div>
